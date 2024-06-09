@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
@@ -11,14 +11,26 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0"/>
-        <PackageReference Include="MSTest.TestAdapter" Version="3.0.4"/>
-        <PackageReference Include="MSTest.TestFramework" Version="3.0.4"/>
-        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+        <PackageReference Include="MSTest.TestAdapter" Version="3.0.4" />
+        <PackageReference Include="MSTest.TestFramework" Version="3.0.4" />
+        <PackageReference Include="coverlet.collector" Version="6.0.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\lab\lab.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="ClassLibraryLab10">
+        <HintPath>..\..\repos10\ClassLibraryLab10\bin\Debug\ClassLibraryLab10.dll</HintPath>
+      </Reference>
+      <Reference Include="lab_3">
+        <HintPath>..\..\12-ioreshkin\lab_4\bin\Debug\net8.0\lab_3.dll</HintPath>
+      </Reference>
+      <Reference Include="lab_4">
+        <HintPath>..\..\12-ioreshkin\lab_4\bin\Debug\net8.0\lab_4.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
