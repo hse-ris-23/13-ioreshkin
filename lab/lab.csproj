@@ -2,8 +2,20 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AnalysisLevel>latest-recommended</AnalysisLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibraryLab10">
+      <HintPath>..\..\repos10\ClassLibraryLab10\bin\Debug\ClassLibraryLab10.dll</HintPath>
+    </Reference>
+    <Reference Include="lab_3">
+      <HintPath>..\..\12-ioreshkin\lab_4\bin\Debug\net8.0\lab_3.dll</HintPath>
+    </Reference>
+    <Reference Include="lab_4">
+      <HintPath>..\..\12-ioreshkin\lab_4\bin\Debug\net8.0\lab_4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
